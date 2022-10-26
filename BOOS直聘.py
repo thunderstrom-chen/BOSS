@@ -128,8 +128,7 @@ class login(boss_ele):
         self.driver_send_key(data["职位"], data["搜索职位输入框_class_name"])  # 进行岗位输入
         self.driver_click(data["搜索按钮_XPATH"])  # 点击搜索按钮
 
-    def link_up(self):
-        pass
+
 
 
 class runner(login):
