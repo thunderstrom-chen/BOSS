@@ -9,7 +9,9 @@ data = {
     "登录按钮_XPATH": '//*[@id="header"]/div[1]/div[4]/div/a[5]',
     "职位": "软件测试",
     "搜索职位输入框_class_name": "ipt-search",
-    "搜索按钮_XPATH": '//*[@id="wrap"]/div[3]/div/div[1]/div[1]/form/button'
+    "搜索按钮_XPATH": '//*[@id="wrap"]/div[3]/div/div[1]/div[1]/form/button',
+    "立即沟通_class": "btn btn-startchat",
+
 }
 
 
@@ -128,7 +130,9 @@ class login(boss_ele):
         self.driver_send_key(data["职位"], data["搜索职位输入框_class_name"])  # 进行岗位输入
         self.driver_click(data["搜索按钮_XPATH"])  # 点击搜索按钮
 
-
+    # 进行沟通  进行沟通时列表，需要进行循环点击
+    def link_up(self):
+        self.driver_ele(data["立即沟通_class"]).click()
 
 
 class runner(login):
@@ -139,15 +143,9 @@ class runner(login):
     def run_main(self):
         self.url_get()  # 访问网址
         time.sleep(10)
-        self.login()  # 进行登录
+        # self.login()  # 进行登录
         self.search_job()  # 搜索工作
         time.sleep(5)
-
-    # 进行沟通  进行沟通时列表，需要进行循环点击
-    def link_up(self, value):
-        for i in value:
-            print(i)
-        print(self.er_list)
 
     # 输出错误列表
     def er_print(self):
