@@ -1,4 +1,5 @@
 {
+  "所有定位采用XPATH进行定位": "****",
   "网址": "https://www.zhipin.com/?city=100010000&ka=city-sites-100010000",
   "输入手机号文本框": "//*[@id=\"wrap\"]/div[2]/div/div[1]/form/div/div[1]/input",
   "获取验证码": "//*[@id=\"wrap\"]/div[2]/div/div[1]/form/div/div[2]/a",
