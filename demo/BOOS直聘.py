@@ -10,8 +10,7 @@ data = {
     "职位": "软件测试",
     "搜索职位输入框_class_name": "ipt-search",
     "搜索按钮_XPATH": '//*[@id="wrap"]/div[3]/div/div[1]/div[1]/form/button',
-    "立即沟通_class": "btn btn-startchat",
-
+    "立即沟通_class": "btn btn-startchat"
 }
 
 

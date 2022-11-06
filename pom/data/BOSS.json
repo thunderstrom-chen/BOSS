@@ -1,0 +1,8 @@
+{
+  "网址": "https://www.zhipin.com/?city=100010000&ka=city-sites-100010000",
+  "输入手机号文本框": "//*[@id=\"wrap\"]/div[2]/div/div[1]/form/div/div[1]/input",
+  "获取验证码": "//*[@id=\"wrap\"]/div[2]/div/div[1]/form/div/div[2]/a",
+  "登录按钮": "//*[@id=\"wrap\"]/div[2]/div/div[1]/form/div/button",
+  "职位输入框": "//*[@id=\"wrap\"]/div[3]/div/div[1]/div[1]/form/div[2]/p/input",
+  "职位搜索按钮": "//*[@id=\"wrap\"]/div[3]/div/div[1]/div[1]/form/button"
+}
