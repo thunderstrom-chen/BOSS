@@ -143,7 +143,7 @@ class runner(login):
     def run_main(self):
         self.url_get()  # 访问网址
         time.sleep(10)
-        # self.login()  # 进行登录
+        self.login()  # 进行登录
         self.search_job()  # 搜索工作
         time.sleep(5)
 
